@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(to left,#fff 50% ,#000 50%);
+    background-size: 100%;
+}
+#title{
+    text-align: center;
+    background: linear-gradient(to left, #000 50%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Random number */
+.containner{
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    position: absolute;
+}
+
+#random-number{
+    top: 50%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    position:absolute;
+    color: #ffffff;
+    font-size: 480px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#btn{
+    border: none;
+    font-family: Brush script MT;
+    font-size: 30px;
+    background: linear-gradient(to left, #000 50%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+}
+#btn :hover{
+    color: wheat;
+    cursor: pointer;
+
+}
+
+/* Random quotes */
+
+
+q{
+    top: 50%;
+    right: 15%;
+    width: 20%;
+    margin: 0;
+    position: absolute;
+    font-size: 30px;
+    color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
